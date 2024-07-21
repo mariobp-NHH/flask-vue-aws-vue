@@ -15,7 +15,7 @@ export default {
   },
   methods: {
     getReponse() {
-      const path = "http://localhost:5000/shark";
+      const path = "https://backend.forward-mario.com/shark";
       axios
         .get(path)
         .then((res) => {
